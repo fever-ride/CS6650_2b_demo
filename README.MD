@@ -51,3 +51,9 @@ curl http://<PUBLIC-IP-ADDRESS>:8080/albums
 ```
 terraform destroy -auto-approve
 ```
+
+---
+
+## Troubleshooting
+
+If you encounter a Docker API version error (`client version 1.41 is too old`), see [TROUBLESHOOTING_AND_RUNNING_RESULT.md](TROUBLESHOOTING_AND_RUNNING_RESULT.md) for problem description, analysis, and solution.
